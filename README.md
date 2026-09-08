@@ -24,7 +24,7 @@ The project demonstrates how neural-network workloads can be accelerated using:
 The accelerator consists of:
 
 <p align="center">
-<img src="architecture.png" width="100%" alt="Architecture">
+<img src="architecture.png" width="75%" alt="Architecture">
 </p>
 
 ---
@@ -34,7 +34,7 @@ The accelerator consists of:
 Each processing element performs multiply-accumulate operations:
 
 <p align="center">
-<img src="pe.png" width="100%" alt="pe">
+<img src="pe.png" width="75%" alt="pe">
 </p>
 
 Each PE:
@@ -113,7 +113,7 @@ Parallel MACs       = 64 / cycle
 The accelerator uses a systolic dataflow:
 
 <p align="center">
-<img src="dataflow.png" width="100%" alt="dataflow">
+<img src="dataflow.png" width="75%" alt="dataflow">
 </p>
 
 Data continuously moves through the array while each PE computes locally.
